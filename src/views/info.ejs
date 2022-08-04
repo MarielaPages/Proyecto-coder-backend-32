@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info</title>
+</head>
+<body>
+    <h2>Info del proceso ejecutado:</h2>
+    <h3>Argumentos de entrada:</h3>
+    <ul>
+        <% argumentosEntrada["_"].forEach(element =>{ %>
+            <li><%= element %></li>
+        <% }) %>
+        <li>Puerto: <%= argumentosEntrada.PORT %></li>
+    </ul>
+    <h3>Nombre de la plataforma (sistema operativo):</h3>
+    <ul>
+        <li><%= nombrePlataformaSO %></li>
+    </ul>
+    <h3>Version de node.js:</h3>
+    <ul>
+        <li><%= versionNode %></li>
+    </ul>
+    <h3>Memoria total reservada (rss):</h3>
+    <ul>
+        <li><%= memoriaRservada %></li>
+    </ul>
+    <h3>Path de ejecucion:</h3>
+    <ul>
+        <li><%= execPath %></li>
+    </ul>
+    <h3>Process id:</h3>
+    <ul>
+        <li><%= processId %></li>
+    </ul>
+    <h3>Carpeta del proyecto:</h3>
+    <ul>
+        <li><%= projectFile %></li>
+    </ul>
+</body>
+</html>
