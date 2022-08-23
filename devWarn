@@ -1,0 +1,2 @@
+{"level":"warn","message":"21/8/2022 19:18:49 -Route: /ewsdf 404 not found -Method: GET"}
+{"level":"error","message":"21/8/2022 19:29:532 -Route: /api/randoms -Method: GET -Error: cantidad no especificada"}

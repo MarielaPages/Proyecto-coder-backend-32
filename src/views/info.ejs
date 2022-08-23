@@ -10,10 +10,7 @@
     <h2>Info del proceso ejecutado:</h2>
     <h3>Argumentos de entrada:</h3>
     <ul>
-        <% argumentosEntrada["_"].forEach(element =>{ %>
-            <li><%= element %></li>
-        <% }) %>
-        <li>Puerto: <%= argumentosEntrada.PORT %></li>
+        <li>Puerto: <%= argumentosEntrada %></li>
     </ul>
     <h3>Nombre de la plataforma (sistema operativo):</h3>
     <ul>
@@ -38,6 +35,10 @@
     <h3>Carpeta del proyecto:</h3>
     <ul>
         <li><%= projectFile %></li>
+    </ul>
+    <h3>Numero total de procesadores/cpus en el servidor:</h3>
+    <ul>
+        <li><%= numeroProcesadores %></li>
     </ul>
 </body>
 </html>

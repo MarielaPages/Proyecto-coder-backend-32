@@ -11,15 +11,20 @@
   "author": "Mariela Pages",
   "license": "ISC",
   "dependencies": {
+    "artillery": "^2.0.0-23",
     "bcrypt": "^5.0.1",
+    "compression": "^1.7.4",
     "connect-mongo": "^4.6.0",
     "dotenv": "^16.0.1",
     "ejs": "^3.1.8",
     "express": "^4.18.1",
     "express-session": "^1.17.3",
     "mongoose": "^6.4.4",
+    "morgan": "^1.10.0",
     "passport": "^0.6.0",
     "passport-local": "^1.0.0",
+    "uninstall": "^0.0.0",
+    "winston": "^3.8.1",
     "yargs": "^17.5.1"
   }
 }
